@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IMPORTAMOS FONTE DO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\prata\Desktop\kenzieflix-main\NovoProjeto\style.css">
+
+    <title>MelFlix</title>
+
+</head>
+    <body>
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho" id="idCabeçalho">
+            <div class="container" > 
+            
+                <!-- Logo -->
+                <figure class="cabecalho__logo">
+                    <!-- Imagem -->
+                    <img src="../NovoProjeto/assets/img/logo.png" alt="Logo da kenzie">
+                    <figcaption hidden>Logo Kenzie</figcaption>
+                </figure> 
+                
+                <!-- Menu de navegação-->
+                <nav class="cabecalho__menu">
+                    <!-- Lista de link para navegar-->
+                    <ul>
+                        <li>
+                            <a href="#">Início</a>                            
+                        </li>
+                        <li> 
+                            <a href="#">Série</a>
+                        </li>
+                        <li> 
+                            <a href="#">filmes</a>
+                        </li>
+                        <li> 
+                            <a href="#">Bombando</a>
+                        </li>
+                        <li> 
+                            <a href="#">Minha lista</a>
+                        </li>
+                        <li> 
+                            <a href="#">Assista de novo</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <div class="cabecalho__menuConfiguracao">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/pesquisa.png" alt="Pesquisa">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">IFANTIL</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/presente.png" alt="Bonus">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/notificacao.png" alt="notificacao">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Escolha do usuário </a>
+                                
+                        </li>
+                    </ul>
+                </div>
+
+            </div>    
+                    
+        </header>
+
+        <main>
+
+            <!-- SEÇÃO DESTAQUE -->
+            <section class= "secaoDestaque">
+                <div class="container"> 
+
+                    <!-- IMAGEM DESTAQUE -->
+                    <figure class="secaoDestaque__imagemDestaque">
+                        <img src="../NovoProjeto/assets/img/destaque.png" alt="nome do filme">
+                        <figcaption></figcaption>
+
+                    </figure>
+                    
+                    <!-- CONTEÚDO DESTAQUE -->
+                    <article class="secaoDestaque__descriçãoDestaque">
+                    <h1><img src="../NovoProjeto/assets/img/titulo-destaque.png" alt="Título destaque"></h1>
+                        <P>Quando um garoto desaparece, a cidade toda participa nas buscas. 
+                            Mas o que encontram são segredos, forças sobrenaturais e uma menina.</P>
+                    </article>
+
+                    <!-- LINKS DE NAVEGAÇAO DESTAQUE -->
+                    <div class="secaoDestaque__navegacaoDestaque">
+                        <a href="#" target="_blank">Assistir
+                            <img src="../NovoProjeto/assets/img/assistir.png" alt="Assistir">
+                        </a>
+                        <a href="#">Mais informações
+                            <img src="../NovoProjeto/assets/img/info.png" alt="Mais informaçoes">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO DE FILMES EM ALTA -->
+            <section class="secaoFilmes">
+                <div class="container" > 
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Em alta</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme1.png" alt="filme1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme2.png" alt="filme2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme3.png" alt="filme3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme4.png" alt="filme4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+                    
+                    <!-- CSS-  BEM (BLOCO ELEMENTO MODIFICADOR)
+                        section = filmes (este primeiro nome tem que acompnhar os demais)
+                        h2 = filmes__titulosecao(2x_)
+                        ul = filmes__lista filmes 
+                        a =  filmes(BLOCO)__linkNavegação(ELEMENTO) filmes__linkNavegação--branca(MODIFICADOR)
+                        a =  filmes__linkNavegação filmes__linkNavegação--preto
+                    -->
+                    <!-- CONTINUAR ASSISTINDO -->
+            <section class="secaoFilmes seçãoFilmes--progressoFilmes">
+                <div class="container" > 
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Em alta</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme1.png" alt="filme1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme1.png" alt="filme2">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme1.png" alt="filme3">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../NovoProjeto/assets/img/filme1.png" alt="filme4">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+
+            <div class="container" > 
+    
+                <!-- REDES SOCIAIS -->
+                <div class="rodape__midiaSociais">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/tt.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/tt.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/tt.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="../NovoProjeto/assets/img/tt.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="rodape__menuNavegacao">
+                    <ul>
+                        <li>
+                            <a href="">Idioma e legendas</a>
+                        </li>   
+                        <li> 
+                            <a href="">Imprensa</a>
+                        </li>
+                        <li> 
+                            <a href="">Privacidade</a>
+                        </li>
+                        <li>  
+                            <a href="">Entre em contato</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">Audiodescrição</a>
+                        </li>
+                        <li>
+                            <a href="">Relações com investidores</a>
+                        </li>
+                        <li>
+                            <a href="">Avisos legais</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="#" class="rodape__linkCodigo">Código do Serviço</a>
+
+                <p>© 1997-2021 KenzieFlix, Inc.  {i-062d573a0ee0992422342}</p>
+
+            <div class="container" > 
+
+
+        </footer>
+    
+    </body>
+</html>
